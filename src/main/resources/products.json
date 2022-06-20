@@ -1,0 +1,32 @@
+[
+  {
+    "productName":"Lenovo Laptop",
+    "price":"500",
+    "description":"Bester Preis"
+  },
+  {
+    "productName":"Apple Iphone",
+    "price":"800",
+    "description":"Beste Erfahrung"
+  },
+  {
+    "productName":"Pizza Quattro Formaggi",
+    "price":"20",
+    "description":"Vier Käsesorten, immer frisch"
+  },
+  {
+    "productName":"Volkswagen Golf",
+    "price":"20000",
+    "description":"Das Auto"
+  },
+  {
+    "productName":"Monopoly Brettspiel",
+    "price":"15",
+    "description":"Für den perfekten Familienabend"
+  },
+  {
+    "productName":"Royal Canin Hundefutter",
+    "price":"10",
+    "description":"Das beste für Ihren felligen Freund"
+  }
+]
