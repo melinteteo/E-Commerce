@@ -6,16 +6,21 @@ spring:
     name: e-commerce
 
   datasource:
-    driverClassName: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/e-commerce
-    username: root
-    password: root
+    url: jdbc:h2:mem:e-commerce
+    username: melinteteo
+    password: ENC(dHolUsFv33uiPggjk7HxhPPwzaLHq/LiIPpeygBEtks=)
+
   jpa:
     hibernate.ddl-auto: update
     generate-ddl: true
     show-sql: true
 
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://localhost:8761/eureka
+jasypt:
+  encryptor:
+    iv-generator-classname: org.jasypt.iv.NoIvGenerator
+    algorithm: PBEWithMD5AndDES
+
+#eureka:
+#  client:
+#    serviceUrl:
+#      defaultZone: http://localhost:8761/eureka
